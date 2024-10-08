@@ -1,0 +1,2 @@
+# by default:  --load_size 286 --crop_size 256
+/home/nemesis/anaconda3/envs/pytorch-CycleGAN-and-pix2pix/bin/python train.py --dataroot ../lsun_dataset/bedroom_train_images_masked_every_100 --checkpoints_dir ../lsun_dataset/cyclegan_checkpoints/bedroom_masked_fill_aligned_small --name bedroom_masked_fill_aligned_small --model cycle_gan --dataset_mode aligned --load_size 143 --crop_size 128 --batch_size 6
