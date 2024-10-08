@@ -182,4 +182,5 @@ fabric.properties
 # idea folder, uncomment if you don't need it
 # .idea
 
-lsun_dataset/masked_images_for_cycle_gan/
+lsun_dataset/*
+!lsun_dataset/bedroom_val_images
